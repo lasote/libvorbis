@@ -34,6 +34,9 @@ LIST(APPEND BII_vq_huffbuild_SRC vq/bookutil.c)
 LIST(APPEND BII_vq_latticebuild_SRC vq/bookutil.c)
 LIST(APPEND BII_vq_latticetune_SRC vq/bookutil.c)
 
+LIST(APPEND BII_test_test_SRC test/util.c)
+
+
 ADD_BIICODE_TARGETS()
 
 if(MINGW)
